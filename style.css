@@ -1,0 +1,138 @@
+body{
+    font-family: 'Roboto' sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    
+}
+.container1, .footer{
+    background-color: #1F2937;
+}
+
+.main-text{
+    font-size: 48px;
+    color: white;
+    font-weight: extra-bold;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a, .secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-content1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex: 0 0 400px;
+    margin-left: 60px;
+}
+
+button{
+    background-color: #3882F6;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.information1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: extra-bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding-bottom: 50px;
+}
+.image > img{
+    border: 4px solid #3882F6;
+    border-radius: 6px;
+}
+
+
+.content3{
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.content3 > h1{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.content3 > p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    align-self: flex-end;
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    color: #F9FAF8;
+}
+
+.container4{
+    background-color: #3882F6;
+    margin-top: 100px;
+    margin-bottom:100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 1000px;
+    margin:  100px auto;
+    border-radius: 10px
+}
+
+.container4{
+    padding: 10px;
+}
+
+.container4 > button{
+    color: white;
+    font-size: 16px;
+    padding: 8px 20px;
+    border: 2px solid white;
+}
