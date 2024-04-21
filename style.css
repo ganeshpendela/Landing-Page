@@ -1,36 +1,44 @@
 body{
-    font-family: 'Roboto' sans-serif;
+    font-family:  sans-serif;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    
+    box-sizing: border-box;
 }
+
+
+/* Background color for header and footer */
 .container1, .footer{
     background-color: #1F2937;
+}
+
+/* Container 1 */
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: lighter;
 }
 
 .main-text{
     font-size: 48px;
     color: white;
     font-weight: extra-bold;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.header-logo{
-    font-size: 24px;
-    color: #F9FAF8;
-}
 
-a, .secondary-text{
-    font-size: 18px;
-    color: #E5E7EB;
-    text-decoration: none;
-}
 ul{
     list-style: none;
     display: flex;
     gap: 16px;
 }
+
+a, .sub-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
 
 .header{
     display: flex;
@@ -38,36 +46,49 @@ ul{
     align-items: center;
 }
 
-.header-content1{
+.header-content{
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
-    padding-bottom: 50px;
-    
+    justify-content: space-around;
+    padding: 20px 100px 50px 100px;
 }
 
-.content{
+.main-content{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
     flex-wrap: wrap;
-    flex: 0 0 400px;
-    margin-left: 60px;
+    align-items: flex-start;
+    max-width: 450px;
+}
+
+.main-content > *{
+    margin-top: 15px;
+    margin-bottom: 0%;
+    margin-right: auto;
+}
+.sub-text{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 button{
-    background-color: #3882F6;
-    padding: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
     border-radius: 10px;
+    padding: 8px 30px;
+    border: none;
 }
 
-.information1{
+
+/* Container 2 */
+.container2{
     font-size: 36px;
     color: #1F2937;
     font-weight: extra-bold;
     text-align: center;
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 .images{
@@ -75,47 +96,40 @@ button{
     justify-content: center;
     align-items: center;
     gap: 48px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 .image > img{
     border: 4px solid #3882F6;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
+/* Container 3 */
 
-.content3{
+.container3{
     background-color: #E5E7EB;
     padding: 100px;
     display: flex;
     flex-direction: column;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
 }
 
-.content3 > h1{
+.quote > h1, .quote > p{
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
 }
 
-.content3 > p{
-    font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
-    color: #1F2937;
-    align-self: flex-end;
+.quote > p{
+    font-weight: bold;
+    text-align: end;
 }
-.footer{
-    padding: 20px;
-    text-align: center;
-    color: #F9FAF8;
-}
+
+/* Container 4 */
 
 .container4{
     background-color: #3882F6;
-    margin-top: 100px;
-    margin-bottom:100px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -123,16 +137,21 @@ button{
     color: #E5E7EB;
     width: 1000px;
     margin:  100px auto;
-    border-radius: 10px
-}
-
-.container4{
+    border-radius: 10px;
     padding: 10px;
 }
+
 
 .container4 > button{
     color: white;
     font-size: 16px;
     padding: 8px 20px;
     border: 2px solid white;
+}
+
+/* footer */
+.footer{
+    padding: 20px;
+    text-align: center;
+    color: #F9FAF8;
 }
