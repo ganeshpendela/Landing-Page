@@ -1,5 +1,5 @@
-# Landing Page Project   https://ganeshpendela.github.io/Landing-Page/
-
+# Landing Page Project   
+![Live Preview](https://ganeshpendela.github.io/Landing-Page/)
 ## Overview
 This project is part of the curriculum on The Odin Project. The goal is to create a landing page using flexbox and basic CSS.
 
